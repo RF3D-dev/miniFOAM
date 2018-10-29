@@ -1,0 +1,1 @@
+../AMIInterpolation/AMIInterpolation/AMIMethod/sweptFaceAreaWeightAMI/sweptFaceAreaWeightAMI.H

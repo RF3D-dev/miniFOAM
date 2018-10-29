@@ -1,0 +1,71 @@
+
+==PVblockMeshReader==
+
+
+
+{| class="PropertiesTable" border="1" cellpadding="5"
+|-
+| '''Property'''
+| '''Description'''
+| '''Default Value(s)'''
+| '''Restrictions'''
+
+|-
+|'''FileName''' (FileName)
+|
+
+The file name
+
+|
+
+|
+The value(s) must be a filename (or filenames).
+|-
+|'''Show Point Numbers''' (UiShowPointNumbers)
+|
+
+Show point numbers in the visualisation
+
+|
+1
+|
+Accepts boolean values (0 or 1).
+|-
+|'''BlockArrayStatus''' (BlockArrayStatus)
+|
+
+|
+
+|
+
+|-
+|'''Blocks''' (BlockStatus)
+|
+
+Select the blocks to load
+
+|
+
+|
+The list of array names is provided by the reader.
+|-
+|'''CurvedEdgesArrayStatus''' (CurvedEdgesArrayStatus)
+|
+
+|
+
+|
+
+|-
+|'''Curved Edges''' (CurvedEdgesStatus)
+|
+
+Select the curved edges to load
+
+|
+
+|
+The list of array names is provided by the reader.
+
+|}
+

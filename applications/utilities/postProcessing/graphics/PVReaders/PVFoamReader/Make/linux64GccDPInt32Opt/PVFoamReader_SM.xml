@@ -1,0 +1,273 @@
+<xml>
+    <proxy>
+        <group>sources</group>
+        <name>PVFoamReader</name>
+        <label>PVFoamReader</label>
+        <property>
+            <name>TimestepValues</name>
+            <label>TimestepValues</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Available times
+                </long>
+            </documentation>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>FileName</name>
+            <label>FileName</label>
+            <documentation>
+                <brief/>
+                <long>
+                    The file name
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text> The value(s) must be a filename (or filenames).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiCacheMesh</name>
+            <label>Cache Mesh</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Cache the mesh in memory
+                </long>
+            </documentation>
+            <defaults>1</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiUseVTKPolyhedron</name>
+            <label>Use VTK Polyhedron</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Represent cells as general polyhedra instead of decomposing
+                    them into simpler shapes
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiZeroTime</name>
+            <label>Skip Zero Time</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Do not load the zero time directory
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiInterpolateVolFields</name>
+            <label>Interpolate Volume Fields</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Interpolate volume fields to the points
+                </long>
+            </documentation>
+            <defaults>1</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiExtrapolatePatches</name>
+            <label>Extrapolate Patches</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Extrapolate volume fields to non-constraint patches
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiShowPatchNames</name>
+            <label>Show Patch Names</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Show patch names in the visualisation
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiIncludeSets</name>
+            <label>Include Sets</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Allow selection of sets
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiIncludeZones</name>
+            <label>Include Zones</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Allow selection of zones
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiShowGroupsOnly</name>
+            <label>Groups Only</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Show only patch groups, not individual patches
+                </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>PartArrayStatus</name>
+            <label>PartArrayStatus</label>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>PartStatus</name>
+            <label>Mesh Parts</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Select the parts of the mesh to load
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>The list of array names is provided by the reader.</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>VolFieldArrayStatus</name>
+            <label>VolFieldArrayStatus</label>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>VolFieldStatus</name>
+            <label>Volume Fields</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Select volume fields to load
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>The list of array names is provided by the reader.</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>LagrangianFieldArrayStatus</name>
+            <label>LagrangianFieldArrayStatus</label>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>LagrangianFieldStatus</name>
+            <label>Lagrangian Fields</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Select Lagrangain fields to load
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>The list of array names is provided by the reader.</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>PointFieldArrayStatus</name>
+            <label>PointFieldArrayStatus</label>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>PointFieldStatus</name>
+            <label>Point Fields</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Select point fields to load
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>The list of array names is provided by the reader.</text>
+                </domain>
+            </domains>
+        </property>
+        <ReaderFactory extensions="OpenFOAM" file_description="OpenFOAM"/>
+    </proxy>
+    <categoryindex>
+        <label>Readers</label>
+        <item proxy_name="PVFoamReader" proxy_group="sources"/>
+    </categoryindex>
+</xml>

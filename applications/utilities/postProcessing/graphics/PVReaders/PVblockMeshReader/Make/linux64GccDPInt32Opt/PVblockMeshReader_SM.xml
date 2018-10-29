@@ -1,0 +1,88 @@
+<xml>
+    <proxy>
+        <group>sources</group>
+        <name>PVblockMeshReader</name>
+        <label>PVblockMeshReader</label>
+        <property>
+            <name>FileName</name>
+            <label>FileName</label>
+            <documentation>
+                <brief/>
+                <long>
+                    The file name
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text> The value(s) must be a filename (or filenames).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>UiShowPointNumbers</name>
+            <label>Show Point Numbers</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Show point numbers in the visualisation
+                </long>
+            </documentation>
+            <defaults>1</defaults>
+            <domains>
+                <domain>
+                    <text>Accepts boolean values (0 or 1).</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>BlockArrayStatus</name>
+            <label>BlockArrayStatus</label>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>BlockStatus</name>
+            <label>Blocks</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Select the blocks to load
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>The list of array names is provided by the reader.</text>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>CurvedEdgesArrayStatus</name>
+            <label>CurvedEdgesArrayStatus</label>
+            <defaults/>
+            <domains/>
+        </property>
+        <property>
+            <name>CurvedEdgesStatus</name>
+            <label>Curved Edges</label>
+            <documentation>
+                <brief/>
+                <long>
+                    Select the curved edges to load
+                </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>The list of array names is provided by the reader.</text>
+                </domain>
+            </domains>
+        </property>
+        <ReaderFactory extensions="blockMesh" file_description="OpenFOAM blockMesh"/>
+    </proxy>
+    <categoryindex>
+        <label>Readers</label>
+        <item proxy_name="PVblockMeshReader" proxy_group="sources"/>
+    </categoryindex>
+</xml>

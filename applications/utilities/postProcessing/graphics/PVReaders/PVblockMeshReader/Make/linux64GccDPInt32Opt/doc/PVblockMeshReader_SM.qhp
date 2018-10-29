@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>PVblockMeshReader_SM.org</namespace>
+    <virtualFolder>PVblockMeshReader_SM</virtualFolder>
+    <filterSection>
+        <toc> <section title="PVblockMeshReader_SM" ref="Readers.html" >
+     <section title="Readers Index" ref="Readers.html" />
+    <section title="PVblockMeshReader" ref="sources.PVblockMeshReader.html" />
+ </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          <file>Readers.html</file>
+<file>sources.PVblockMeshReader.html</file>
+
+        </files>
+    </filterSection>
+</QtHelpProject>

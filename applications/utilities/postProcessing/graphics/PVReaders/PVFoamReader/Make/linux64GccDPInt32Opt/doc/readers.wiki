@@ -1,0 +1,198 @@
+
+==PVFoamReader==
+
+
+
+{| class="PropertiesTable" border="1" cellpadding="5"
+|-
+| '''Property'''
+| '''Description'''
+| '''Default Value(s)'''
+| '''Restrictions'''
+
+|-
+|'''TimestepValues''' (TimestepValues)
+|
+
+Available times
+
+|
+
+|
+
+|-
+|'''FileName''' (FileName)
+|
+
+The file name
+
+|
+
+|
+The value(s) must be a filename (or filenames).
+|-
+|'''Cache Mesh''' (UiCacheMesh)
+|
+
+Cache the mesh in memory
+
+|
+1
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Use VTK Polyhedron''' (UiUseVTKPolyhedron)
+|
+
+Represent cells as general polyhedra instead of decomposing
+them into simpler shapes
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Skip Zero Time''' (UiZeroTime)
+|
+
+Do not load the zero time directory
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Interpolate Volume Fields''' (UiInterpolateVolFields)
+|
+
+Interpolate volume fields to the points
+
+|
+1
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Extrapolate Patches''' (UiExtrapolatePatches)
+|
+
+Extrapolate volume fields to non-constraint patches
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Show Patch Names''' (UiShowPatchNames)
+|
+
+Show patch names in the visualisation
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Include Sets''' (UiIncludeSets)
+|
+
+Allow selection of sets
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Include Zones''' (UiIncludeZones)
+|
+
+Allow selection of zones
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''Groups Only''' (UiShowGroupsOnly)
+|
+
+Show only patch groups, not individual patches
+
+|
+0
+|
+Accepts boolean values (0 or 1).
+|-
+|'''PartArrayStatus''' (PartArrayStatus)
+|
+
+|
+
+|
+
+|-
+|'''Mesh Parts''' (PartStatus)
+|
+
+Select the parts of the mesh to load
+
+|
+
+|
+The list of array names is provided by the reader.
+|-
+|'''VolFieldArrayStatus''' (VolFieldArrayStatus)
+|
+
+|
+
+|
+
+|-
+|'''Volume Fields''' (VolFieldStatus)
+|
+
+Select volume fields to load
+
+|
+
+|
+The list of array names is provided by the reader.
+|-
+|'''LagrangianFieldArrayStatus''' (LagrangianFieldArrayStatus)
+|
+
+|
+
+|
+
+|-
+|'''Lagrangian Fields''' (LagrangianFieldStatus)
+|
+
+Select Lagrangain fields to load
+
+|
+
+|
+The list of array names is provided by the reader.
+|-
+|'''PointFieldArrayStatus''' (PointFieldArrayStatus)
+|
+
+|
+
+|
+
+|-
+|'''Point Fields''' (PointFieldStatus)
+|
+
+Select point fields to load
+
+|
+
+|
+The list of array names is provided by the reader.
+
+|}
+

@@ -1,0 +1,99 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7dd34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7dd34.dir/build.make CMakeFiles/cmTC_7dd34.dir/build
+make[1]: Entering directory '/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dd34.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -I/usr/include/qt4   -o CMakeFiles/cmTC_7dd34.dir/CheckSymbolExists.cxx.o -c /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_7dd34.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7dd34.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7dd34.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7dd34/fast' failed
+make: *** [cmTC_7dd34/fast] Error 2
+
+File /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9c01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9c01.dir/build.make CMakeFiles/cmTC_a9c01.dir/build
+make[1]: Entering directory '/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9c01.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -I/usr/include/qt4   -o CMakeFiles/cmTC_a9c01.dir/CheckSymbolExists.cxx.o -c /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_a9c01.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a9c01.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a9c01.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a9c01/fast' failed
+make: *** [cmTC_a9c01/fast] Error 2
+
+File /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_440d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_440d1.dir/build.make CMakeFiles/cmTC_440d1.dir/build
+make[1]: Entering directory '/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_440d1.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -I/usr/include/qt4   -o CMakeFiles/cmTC_440d1.dir/CheckSymbolExists.cxx.o -c /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_440d1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_440d1.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_440d1.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_440d1/fast' failed
+make: *** [cmTC_440d1/fast] Error 2
+
+File /home/dao/WorkSpace/C++/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/Make/linux64GccDPInt32Opt/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
