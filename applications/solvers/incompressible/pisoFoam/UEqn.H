@@ -1,5 +1,4 @@
 // Solve the Momentum equation
-
 fvVectorMatrix UEqn
 (
     fvm::ddt(U) + fvm::div(phi, U)
