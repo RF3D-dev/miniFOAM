@@ -61,13 +61,12 @@ int main(int argc, char *argv[])
     while (runTime.loop())
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
-
         #include "CourantNo.H"
 
         // Pressure-velocity PISO corrector
         {
             #include "UEqn.H"
-
+          
             // --- PISO loop
             while (piso.correct())
             {
@@ -84,7 +83,7 @@ int main(int argc, char *argv[])
             << "  ClockTime = " << runTime.elapsedClockTime() << " s"
             << nl << endl;
     }
-
+  
     Info<< "End\n" << endl;
     return 0;
 }
