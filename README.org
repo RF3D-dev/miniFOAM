@@ -1,8 +1,6 @@
-#                            -*- mode: org; -*-
-#
-#+TITLE:     README for miniFOAM
-#+AUTHOR:    Fei-Liang Yuan
-#+DATE:      30 Oct. 2018
+# README for miniFOAM
+
+## Introduction
 
 miniFOAM is a minimized version of OpenFOAM v6, for understanding the
 basics of CFD such as follows.
@@ -52,7 +50,7 @@ As a result, only 15 folders of source codes are left out of 39 in the 'src' dir
 In short, miniFOAM aims to provide a clean version of OpenFOAM
 for those who want to get a better understanding of the basics of CFD.
 
-* Installing
+## Installing
 
 add a line in ~/.bashrc:
 
