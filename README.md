@@ -41,11 +41,13 @@ As a result, only 15 folders of source-codes are left (out of 39) in the 'src' d
 ## So what can we do with miniFOAM?
 
 Since the base libraries *libOpenFOAM* and *libfiniteVolume* are fully compiled, we
-can use them to make small apps to study the **mesh** and **fvMesh** classes. 
+can use them to make small apps to study the **mesh** and **fvMesh** classes.
 
 - understading the strucutre of CFD mesh: nodes, faces, cells
 - tests on fvMesh and fvMatrices;
-`` ``
+
+`` and ``
+
 - create uniform mesh with blockMesh;
 - import unstructured mesh (e.g. gmshToFOAM);
 - compile incompressible solvers like pisoFOAM; 
