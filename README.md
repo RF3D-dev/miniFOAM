@@ -65,7 +65,7 @@ Recommendation: manually compile libraries in the 'src' directory one by one, in
 
 ## Author
 
-**Feiliang Yuan** - [F. L. Y.](https://github.com/keepfit-Zzz)
+**Feiliang Yuan** @ github [F. L. Y.](https://github.com/keepfit-Zzz)
 ___________________________________________________________________________________
 - About OpenFOAM
 
