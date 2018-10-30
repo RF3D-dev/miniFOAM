@@ -36,14 +36,16 @@ Therefore, some of the advanced features / models from OpenFOAM are removed:
 - region models;
 - wave models.
 
-As a result, only 15 folders of source codes are left out of 39 in the 'src' directory.
+As a result, only 15 folders of source-codes are left (out of 39) in the 'src' directory.
 
 ## So what can we do with miniFOAM?
 
+Since the base libraries *libOpenFOAM* and *libfiniteVolume* are fully compiled, we
+can use them to make small apps to study the **mesh** and **fvMesh** classes. 
+
 - understading the strucutre of CFD mesh: nodes, faces, cells
 - tests on fvMesh and fvMatrices;
-
-
+`` ``
 - create uniform mesh with blockMesh;
 - import unstructured mesh (e.g. gmshToFOAM);
 - compile incompressible solvers like pisoFOAM; 
