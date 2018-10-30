@@ -52,7 +52,19 @@ As a result, only 15 folders of source codes are left out of 39 in the 'src' dir
 In short, miniFOAM aims to provide a clean version of OpenFOAM
 for those who want to get a better understanding of the basics of CFD.
 
+* Installing
 
+add a line in ~/.bashrc:
+
+source PATH_OF_INSTALL/miniFOAM-6/etc/bashrc FOAMY_HEX_MESH=yes
+
+The rest is same as installing OpenFOAM v6.
+
+Recommendation: manually compile libraries in the 'src' directory one by one, in the oder shown in the file 'Allwmake'.
+
+
+
++
 Feiliang Yuan
 
 October, 2018
