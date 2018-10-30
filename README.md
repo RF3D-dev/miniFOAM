@@ -38,7 +38,7 @@ Therefore, some of the advanced features / models from OpenFOAM are removed:
 
 As a result, only 15 folders of source codes are left out of 39 in the 'src' directory.
 
-* So what can we do with miniFOAM?
+## So what can we do with miniFOAM?
 
 - understading the strucutre of CFD mesh: nodes, faces, cells
 - tests on fvMesh and fvMatrices;
