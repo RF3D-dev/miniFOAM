@@ -1,7 +1,7 @@
 #                            -*- mode: org; -*-
 #
-TITLE:     README for miniFOAM
-AUTHOR:    Fei-Liang Yuan
+#+TITLE:     README for miniFOAM
+#+AUTHOR:    Fei-Liang Yuan
 #+DATE:      30 Oct. 2018
 
 miniFOAM is a minimized version of OpenFOAM v6, for understanding the
@@ -38,30 +38,27 @@ Therefore, some of the advanced features / models from OpenFOAM are removed:
 - region models;
 - wave models;
 
+As a result, only 15 folders of source codes are left out of 39 in the 'src' directory.
+
 * So what can we do with miniFOAM?
 
-- 
+- understading the strucutre of CFD mesh: nodes, faces, cells
 - tests on fvMesh and fvMatrices;
 
 - create uniform mesh with blockMesh;
 - import mesh via gmshToFOAM, etc ...
 - compile incompressible solvers like pisoFOAM; 
 
+In short, miniFOAM aims to provide a clean version of OpenFOAM
+for those who want to get a better understanding of the basics of CFD.
 
-# Copyright (c) 2015-2018 OpenFOAM Foundation.
+Feiliang Yuan
+October, 2018
 
-* About OpenFOAM
+- About OpenFOAM
   OpenFOAM is a free, open source computational fluid dynamics (CFD) software
   package released by the OpenFOAM Foundation. It has a large user base across
   most areas of engineering and science, from both commercial and academic
   organisations. OpenFOAM has an extensive range of features to solve anything
   from complex fluid flows involving chemical reactions, turbulence and heat
   transfer, to solid dynamics and electromagnetics.
-
-* Copyright
-  OpenFOAM is free software: you can redistribute it and/or modify it under the
-  terms of the GNU General Public License as published by the Free Software
-  Foundation, either version 3 of the License, or (at your option) any later
-  version.  See the file =COPYING= in this directory or
-  [[http://www.gnu.org/licenses/]], for a description of the GNU General Public
-  License terms under which you can copy the files.
