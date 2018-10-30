@@ -1,4 +1,4 @@
-# README for miniFOAM
+# miniFOAM
 
 ## Introduction
 
