@@ -59,16 +59,17 @@ add a line in ~/.bashrc:
 ```
 source PATH_OF_INSTALL/miniFOAM-6/etc/bashrc FOAMY_HEX_MESH=yes
 ```
+
 The rest is same as installing OpenFOAM v6.
+
 Recommendation: manually compile libraries in the 'src' directory one by one, in the oder shown in the file 'Allwmake'.
 
 
 
-+
-Feiliang Yuan
 
-October, 2018
+## Author
 
+**Feiliang Yuan** - [F. L. Y.](https://github.com/keepfit-Zzz)
 ___________________________________________________________________________________
 - About OpenFOAM
 
