@@ -3,7 +3,7 @@
 ## Introduction
 
 miniFOAM is a minimized version of OpenFOAM v6, for understanding the
-basics of CFD such as follows.
+basics of CFD such as follows:
 
 - discretization of the problem domian with structured/unconstructured mesh;
 - formation of finvite volume mesh (fvMesh);
