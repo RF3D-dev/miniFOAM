@@ -56,7 +56,9 @@ Feiliang Yuan
 
 October, 2018
 
+___________________________________________________________________________________
 - About OpenFOAM
+
   OpenFOAM is a free, open source computational fluid dynamics (CFD) software
   package released by the OpenFOAM Foundation. It has a large user base across
   most areas of engineering and science, from both commercial and academic
