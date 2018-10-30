@@ -69,7 +69,7 @@ The rest is same as installing OpenFOAM v6.
 Recommendation: manually compile libraries in the 'src' directory one by one, in the oder shown in the file 'Allwmake', as it is easier to track down the errors.
 
 
-## Author
+##
 
 **Feiliang Yuan** @ github [F. L. Y.](https://github.com/keepfit-Zzz)
 ___________________________________________________________________________________
