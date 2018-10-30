@@ -1,7 +1,7 @@
 #                            -*- mode: org; -*-
 #
-#+TITLE:     README for miniFOAM
-#+AUTHOR:    Fei-Liang Yuan
+TITLE:     README for miniFOAM
+AUTHOR:    Fei-Liang Yuan
 #+DATE:      30 Oct. 2018
 
 miniFOAM is a minimized version of OpenFOAM v6, for understanding the
