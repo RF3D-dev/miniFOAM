@@ -1,10 +1,53 @@
 #                            -*- mode: org; -*-
 #
-#+TITLE:     README for [[http://openfoam.org/version/6][OpenFOAM-6]]
-#+AUTHOR:               The OpenFOAM Foundation
-#+DATE:                     10th July 2018
-#+LINK:                  http://openfoam.org
-#+OPTIONS: author:nil ^:{}
+#+TITLE:     README for miniFOAM
+#+AUTHOR:    Fei-Liang Yuan
+#+DATE:      30 Oct. 2018
+
+miniFOAM is a minimized version of OpenFOAM v6, for understanding the
+basics of CFD such as follows.
+
+- discretization of the problem domian with structured/unconstructured mesh;
+- formation of finvite volume mesh (fvMesh);
+- finite volume matrices (fvMatrices); 
+- writing governing equations with the OpenFOAM high-level classes;
+- boundary conditions;
+- transport models;
+- turbulence models;
+
+Therefore, some of the advanced features / models from OpenFOAM are removed:
+
+- parallel computing;
+- function objects;
+- sampling functions;
+- ODE;
+- fvOptions;
+- mesh renumbering;
+- fvAgglomeration methods;
+- fvMotion solver;
+- random Processes;
+
+- compressilbe transport models;
+- compressilbe turbulence models;
+- lagrangian models;
+- engine model;
+- combustion models;
+- rigid bodies and 6DOF models;
+- thermophysical models;
+- atmosphericModels;
+- region models;
+- wave models;
+
+* So what can we do with miniFOAM?
+
+- 
+- tests on fvMesh and fvMatrices;
+
+- create uniform mesh with blockMesh;
+- import mesh via gmshToFOAM, etc ...
+- compile incompressible solvers like pisoFOAM; 
+
+
 # Copyright (c) 2015-2018 OpenFOAM Foundation.
 
 * About OpenFOAM
@@ -22,10 +65,3 @@
   version.  See the file =COPYING= in this directory or
   [[http://www.gnu.org/licenses/]], for a description of the GNU General Public
   License terms under which you can copy the files.
-
-* [[https://openfoam.org/download/source][Download and installation instructions]]
-* [[https://openfoam.org/resources][Documentation]]
-* [[https://cpp.openfoam.org/v6][Source code documentation]]
-* [[https://openfoam.org/dev/coding-style-guide][OpenFOAM C++ Style Guide]]
-* [[https://bugs.openfoam.org][Reporting bugs in OpenFOAM]]
-* [[https://openfoam.org/contact][Contacting the OpenFOAM Foundation]]
