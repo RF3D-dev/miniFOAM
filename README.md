@@ -11,7 +11,7 @@ basics of CFD such as follows:
 - writing governing equations with the OpenFOAM high-level classes;
 - boundary conditions;
 - transport models;
-- turbulence models;
+- turbulence models.
 
 Therefore, some of the advanced features / models from OpenFOAM are removed:
 
@@ -32,7 +32,7 @@ Therefore, some of the advanced features / models from OpenFOAM are removed:
 - combustion models;
 - rigid bodies and 6DOF models;
 - thermophysical models;
-- atmosphericModels;
+- atmospheric models;
 - region models;
 - wave models.
 
